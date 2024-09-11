@@ -1,0 +1,37 @@
+# Virtual environment folder
+venv/
+
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# MacOS-specific files
+.DS_Store
+
+# Streamlit temporary files
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# Ignore log files
+*.log
+
+# Node_modules (if using npm or Yarn)
+node_modules/
+
+# Local environment variables
+.env
+
+# Ignore model files (optional, if too large)
+model/*.h5
